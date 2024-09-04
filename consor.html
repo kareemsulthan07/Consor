@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #consorTextBox {
+            width: calc(100% - 20px);
+            height: 400px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            padding: 10px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: left;
+        }
+
+        #buttons button {
+            padding: 7px;
+            font-size: 13px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea id="consorTextBox" placeholder="Available text"></textarea>
+
+    <div id="buttons">
+        <button id="copyToClipboardButton">Copy to Clipboard</button>
+        <button id="clearButton">Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
